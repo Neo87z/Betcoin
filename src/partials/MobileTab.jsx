@@ -312,7 +312,7 @@ function Tabs() {
                   <div style={{ marginLeft: '40px' }} >
 
                     <div className="max-w-6xl mx-auto px-4 sm:px-6" >
-                      <svg style={{ marginTop: '-70px', marginLeft: '-118px' }} width="540" height="520" viewBox="0 0 540 520" xmlns="http://www.w3.org/2000/svg">
+                      <svg style={{ marginTop: '-70px', marginLeft: '-155px' }} width="540" height="520" viewBox="0 0 540 520" xmlns="http://www.w3.org/2000/svg">
                         <g className="fill-current text-green-600">
                           <circle className="pulse" cx="270" cy="260" r="64" />
                           <circle className="pulse pulse-1" cx="270" cy="260" r="64" />

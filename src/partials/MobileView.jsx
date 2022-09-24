@@ -22,7 +22,7 @@ function FeaturesHome() {
 
 
   return (
-    <section   style={{position:'absolute',marginLeft:'-0%',width:'100%'}}>
+    <section   style={{position:'absolute',marginLeft:'-5%',width:'100%'}}>
     
   <Tabs style={{position:'absolute'}} />
   <MainEvent  style={{position:'absolute'}}/>
