@@ -46,17 +46,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/features" element={<Features />} />
-        <Route path="/pricing" element={<Pricing />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/blog-post" element={<BlogPost />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/help" element={<Help />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/reset-password" element={<ResetPassword />} />
-        <Route path="*" element={<PageNotFound />} />
+      
       </Routes>
     </>
   );

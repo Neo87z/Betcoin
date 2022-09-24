@@ -42,7 +42,7 @@ function Header() {
           
             <Link to="/" className="block" aria-label="Cruip">
              
-              <img  src={logo} width="76" height="187" alt="Tabs 01" />
+            
            
             </Link>
           </div>

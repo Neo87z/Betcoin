@@ -3,7 +3,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import FeatIllustration from '../images/chatBlack.jpeg';
 import FeatAvatar from '../images/features-avatar.jpg';
 import Tabs from './MobileTab';
-import LoveCHat from '../pages/LiveChat';
+import LoveCHat from '../pages/mobileChat';
 import MainEvent from './mobileMatch';
 import Axios from "axios";
 
@@ -22,11 +22,11 @@ function FeaturesHome() {
 
 
   return (
-    <section   style={{position:'absolute',marginLeft:'-5%',width:'100%'}}>
-    
-  <Tabs style={{position:'absolute'}} />
-  <MainEvent  style={{position:'absolute'}}/>
-  <LoveCHat style={{position:'absolute'}} />
+    <section style={{ position: 'absolute', marginLeft: '-5%', width: '100%' }}>
+
+      <Tabs style={{ position: 'absolute' }} />
+      <MainEvent style={{ position: 'absolute' }} />
+      <LoveCHat style={{ position: 'absolute' }} />
 
 
 
