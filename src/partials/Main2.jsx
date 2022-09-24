@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Dropdown from '../utils/Dropdown';
 import FeaturesHome from './FeaturesHome';
+import Mobile from './MobileView';
 import logo from '../images/logo1.png';
 function Header() {
 
@@ -37,19 +38,19 @@ function Header() {
         <div className="flex items-center justify-between h-20">
 
           {/* Site branding */}
-      
-      
+
+
           {/* Desktop navigation */}
           <nav className="hidden md:flex ">
 
-          <FeaturesHome />
+            <FeaturesHome />
             {/* Desktop menu links */}
-          
+
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
-       
+
               <li>
-              
+
               </li>
             </ul>
 
@@ -57,7 +58,7 @@ function Header() {
 
           {/* Mobile menu */}
           <div className="md:hidden">
-
+            <Mobile />
           </div>
 
         </div>
