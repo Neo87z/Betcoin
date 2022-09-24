@@ -69,7 +69,7 @@ function Tabs() {
 
   useEffect(() => {
     setFetchDataInterval(1000)
-    Axios.get('http://809b-35-204-64-57.ngrok.io/GetAllBets22').then((response) => {
+    Axios.get('http://e392-35-204-64-57.ngrok.io/GetAllBets22').then((response) => {
       setBetList(response.data.FianlData)
 
 
