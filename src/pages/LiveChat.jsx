@@ -15,7 +15,7 @@ function FeaturesHome() {
   const [fetchDataTrigger, setFetchDataTrigger] = useState(0);
   const fetchDataIntervalId = useRef();
 
-
+  
   useEffect(() => {
     setFetchDataInterval(1000)
     Axios.get('https://asdasdasdasd2222.herokuapp.com/rooms/TestData').then((response) => {

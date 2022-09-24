@@ -56,7 +56,7 @@ function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
        
               <li>
-                <Link to="/signup" className="btn-sm text-white bg-green-600 hover:bg-green-700 ml-3">Telegram Login</Link>
+               { /*<Link to="/signup" className="btn-sm text-white bg-green-600 hover:bg-green-700 ml-3">Telegram Login</Link>*/}
               </li>
             </ul>
 

@@ -65,53 +65,53 @@ function Tabs() {
 
   const [fetchDataTrigger, setFetchDataTrigger] = useState(0);
   const fetchDataIntervalId = useRef();
-/*
+
 
   useEffect(() => {
     setFetchDataInterval(1000)
-    Axios.get('http://e392-35-204-64-57.ngrok.io/GetAllBets22').then((response) => {
-      setBetList(response.data.FianlData)
+    Axios.get('https://asdasdasdasd2222.herokuapp.com/rooms/GetBet').then((response) => {
+      setBetList(response.data)
 
 
-      if (response.data.FianlData[0] != undefined) {
-        console.log(response.data.FianlData[0].ImageURL, 'Finallll Da 1')
-        setImgData22(response.data.FianlData[0].Team1)
-        setImgData2222a(response.data.FianlData[0].Team2)
-        steLogoTeaam1(response.data.FianlData[0].Team1Logo)
-        setTEamLogo2(response.data.FianlData[0].Team2Logo)
+      if (response.data[0] != undefined) {
+        console.log(response.data[0].ImageURL, 'Finallll Da 1')
+        setImgData22(response.data[0].Team1)
+        setImgData2222a(response.data[0].Team2)
+        steLogoTeaam1(response.data[0].Team1Logo)
+        setTEamLogo2(response.data[0].Team2Logo)
 
-        setTeamScore1(response.data.FianlData[0].Team1Score)
-        setTeamScore2(response.data.FianlData[0].Team2Score)
+        setTeamScore1(response.data[0].Team1Score)
+        setTeamScore2(response.data[0].Team2Score)
 
 
 
       }
-      if (response.data.FianlData[1] != undefined) {
+      if (response.data[1] != undefined) {
 
-        setImgData2222(response.data.FianlData[1].Team1)
-        setImgData2222a2(response.data.FianlData[1].Team2)
-        steLogoTeaam12(response.data.FianlData[1].Team1Logo)
-        setTEamLogo22(response.data.FianlData[1].Team2Logo)
-        setTeamScore12(response.data.FianlData[1].Team1Score)
-        setTeamScore22(response.data.FianlData[1].Team2Score)
+        setImgData2222(response.data[1].Team1)
+        setImgData2222a2(response.data[1].Team2)
+        steLogoTeaam12(response.data[1].Team1Logo)
+        setTEamLogo22(response.data[1].Team2Logo)
+        setTeamScore12(response.data[1].Team1Score)
+        setTeamScore22(response.data[1].Team2Score)
       }
-      if (response.data.FianlData[2] != undefined) {
+      if (response.data[2] != undefined) {
 
-        setImgData22223(response.data.FianlData[2].Team1)
-        setImgData2222a23(response.data.FianlData[2].Team2)
-        steLogoTeaam123(response.data.FianlData[2].Team1Logo)
-        setTEamLogo223(response.data.FianlData[2].Team2Logo)
-        setTeamScore13(response.data.FianlData[2].Team1Score)
-        setTeamScore23(response.data.FianlData[2].Team2Score)
+        setImgData22223(response.data[2].Team1)
+        setImgData2222a23(response.data[2].Team2)
+        steLogoTeaam123(response.data[2].Team1Logo)
+        setTEamLogo223(response.data[2].Team2Logo)
+        setTeamScore13(response.data[2].Team1Score)
+        setTeamScore23(response.data[2].Team2Score)
       }
-      if (response.data.FianlData[3] != undefined) {
+      if (response.data[3] != undefined) {
 
-        setImgData222234(response.data.FianlData[3].Team1)
-        setImgData2222a234(response.data.FianlData[3].Team2)
-        steLogoTeaam1234(response.data.FianlData[3].Team1Logo)
-        setTEamLogo2234(response.data.FianlData[3].Team2Logo)
-        setTeamScore14(response.data.FianlData[3].Team1Score)
-        setTeamScore24(response.data.FianlData[3].Team2Score)
+        setImgData222234(response.data[3].Team1)
+        setImgData2222a234(response.data[3].Team2)
+        steLogoTeaam1234(response.data[3].Team1Logo)
+        setTEamLogo2234(response.data[3].Team2Logo)
+        setTeamScore14(response.data[3].Team1Score)
+        setTeamScore24(response.data[3].Team2Score)
       }
 
     })
@@ -134,8 +134,6 @@ function Tabs() {
     }
   };
 
-
-*/
 
 
 
@@ -675,7 +673,7 @@ function Tabs() {
                   <div style={{ marginLeft: '40px' }} >
 
                     <div className="max-w-6xl mx-auto px-4 sm:px-6" >
-                      <svg style={{ marginTop: '-110px', marginLeft: '-36px' }} width="540" height="520" viewBox="0 0 540 520" xmlns="http://www.w3.org/2000/svg">
+                      <svg style={{ marginTop: '-70px', marginLeft: '-36px' }} width="540" height="520" viewBox="0 0 540 520" xmlns="http://www.w3.org/2000/svg">
                         <g className="fill-current text-green-600">
                           <circle className="pulse" cx="270" cy="260" r="64" />
                           <circle className="pulse pulse-1" cx="270" cy="260" r="64" />

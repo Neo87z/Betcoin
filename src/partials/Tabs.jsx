@@ -28,33 +28,33 @@ function Tabs() {
 
 
 
- /* useEffect(() => {
+  useEffect(() => {
 
-    Axios.get('http://e392-35-204-64-57.ngrok.io/GetAllBets22').then((response) => {
-      setBetList(response.data.FianlData)
+    Axios.get('https://asdasdasdasd2222.herokuapp.com/rooms/GetBet').then((response) => {
+      setBetList(response.data)
 
 
-      if (response.data.FianlData[0] != undefined) {
-        console.log(response.data.FianlData[0].ImageURL, 'Finallll Da 1')
-        setImgData22(response.data.FianlData[0].ImageURL)
+      if (response.data[0] != undefined) {
+        console.log(response.data[0].ImageURL, 'Finallll Da 1')
+        setImgData22(response.data[0].ImageURL)
       }
-      if (response.data.FianlData[1] != undefined) {
+      if (response.data[1] != undefined) {
 
-        setImgData222(response.data.FianlData[1].ImageURL)
+        setImgData222(response.data[1].ImageURL)
       }
-      if (response.data.FianlData[2] != undefined) {
+      if (response.data[2] != undefined) {
 
-        setImgData223(response.data.FianlData[2].ImageURL)
+        setImgData223(response.data[2].ImageURL)
       }
-      if (response.data.FianlData[3] != undefined) {
+      if (response.data[3] != undefined) {
 
-        setImgData224(response.data.FianlData[3].ImageURL)
+        setImgData224(response.data[3].ImageURL)
       }
 
     })
 
   }, []);
-*/
+
 
   const [tab, setTab] = useState(5);
 
@@ -312,7 +312,7 @@ function Tabs() {
                   <div style={{ marginLeft: '40px' }} >
 
                     <div className="max-w-6xl mx-auto px-4 sm:px-6" >
-                      <svg style={{ marginTop: '-110px', marginLeft: '-36px' }} width="540" height="520" viewBox="0 0 540 520" xmlns="http://www.w3.org/2000/svg">
+                      <svg style={{ marginTop: '-70px', marginLeft: '-36px' }} width="540" height="520" viewBox="0 0 540 520" xmlns="http://www.w3.org/2000/svg">
                         <g className="fill-current text-green-600">
                           <circle className="pulse" cx="270" cy="260" r="64" />
                           <circle className="pulse pulse-1" cx="270" cy="260" r="64" />
