@@ -22,25 +22,25 @@ function FeaturesHome() {
 
 
   return (
-    <section  >
+    <section  style={{marginLeft:'-70%',marginTop:'-100px'}}>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6" >
         <div class="ui three column very relaxed grid">
-          <div style={{ width:'700px',marginLeft:'-470px', marginTop:'-80px'}} class="column">
-          <Tabs />
+          <div  style={{width:'28%', position:'absolute',marginLeft:'-16%'}} class="column">
+            <Tabs />
           </div>
-          <div style={{ width:'700px',marginTop:'-80px',marginLeft:'-50px'}} class="column">
-          
+          <div style={{width:'30%',position:'absolute',marginLeft:'11%'}} class="column">
+
             <MainEvent />
           </div>
-          <div style={{ width:'10px',marginTop:'-68px',marginTop:'-150px',marginLeft:'-70px'}} class="column">
+          <div style={{width:'25%',position:'absolute',marginLeft:'42%'}} class="column">
             <LoveCHat />
           </div>
 
         </div>
 
       </div>
-    
+
 
 
 

@@ -47,8 +47,8 @@ function FeaturesHome() {
   return (
     <section  >
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20  border-gray-800">
+      <div >
+        <div >
 
 
           {/* Items */}
@@ -58,11 +58,11 @@ function FeaturesHome() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
 
-              <div style={{ width: '600px' }} className="max-w-xl md:max-w-none border-t border-gray-800 md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up" data-aos-anchor="[data-aos-id-features-home]">
+              <div style={{ width: '250%' }} className="max-w-xl md:max-w-none border-t border-gray-800 md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up" data-aos-anchor="[data-aos-id-features-home]">
 
 
                 <div className="relative">
-                  <div className="max-w-3xl mx-auto text-center pb-12" data-aos-id-tabs>
+                  <div   className="max-w-3xl mx-auto text-center pb-12" data-aos-id-tabs>
 
                     <h2 style={{ marginTop: '70px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">Live Chat</h2>
 
@@ -79,7 +79,7 @@ function FeaturesHome() {
                     </g>
                   </svg>*/}
                 </div>
-                <div style={{ height: '450px', overflow: 'auto', margin: '20px', textAlign: 'justify', padding: '20px' }}>
+                <div style={{ width:'100%', height: '340px', overflow: 'auto', margin: '20px', textAlign: 'justify', padding: '20px' }}>
                   <div className="max-w-3xl mx-auto -my-4 md:-my-6" data-aos-id-timeline>
 
                     {/* 1st item */}

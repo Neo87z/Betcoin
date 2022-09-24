@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Dropdown from '../utils/Dropdown';
-import FeaturesHome from '../partials/FeaturesHome';
+import FeaturesHome from './FeaturesHome';
 import logo from '../images/logo1.png';
 function Header() {
 
@@ -37,20 +37,12 @@ function Header() {
         <div className="flex items-center justify-between h-20">
 
           {/* Site branding */}
-          <div className="shrink-0 mr-4">
-            {/* Logo */}
-          
-            <Link to="/" className="block" aria-label="Cruip">
-             
-              <img  src={logo} width="76" height="187" alt="Tabs 01" />
-           
-            </Link>
-          </div>
-        
+      
+      
           {/* Desktop navigation */}
           <nav className="hidden md:flex ">
 
-        
+          <FeaturesHome />
             {/* Desktop menu links */}
           
             {/* Desktop sign in links */}

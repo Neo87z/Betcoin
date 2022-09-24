@@ -10,6 +10,7 @@ import Target from '../partials/Target';
 import News from '../partials/News';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
+import Header2 from '../partials/Main2';
 
 function Home() {
   return (
@@ -27,10 +28,12 @@ function Home() {
         </div>
 
         {/*  Page sections */}
+       
         <HeroHome />
-      
-        <FeaturesHome />
-    
+        <Header2 />
+        
+     
+
 
       </main>
 
