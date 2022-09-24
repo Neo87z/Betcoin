@@ -285,55 +285,19 @@ function Tabs() {
               >
 
                 <div data-aos="fade-up" ref={tabs}>
-                 
-                  <div className="max-w-6xl mx-auto px-4 sm:px-6" style={{ marginTop: '45px' }} >
-                    <div class="ui three column very relaxed grid">
-                      <div class="column">
-                      <center>  <img style={{ marginLeft: '75px' }} className="w-full h-full object-cover" src={Team1Logo} width="316" height="287" /></center>
-                      </div>
-                      <div class="column">
-                      <center>  <h2  className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">VS1</h2> </center>
-                      </div>
 
-                      <div class="column">
-                      <center>  <img style={{ marginLeft: '-75px' }} className="w-full h-full object-cover" src={Team2Logo} width="316" height="287" /> </center>
-
-                      </div>
-
-
-                    </div>
-
-                  </div>
-
-                  <div style={{ marginLeft: '40px' }} >
-
-                    <div className="max-w-6xl mx-auto px-4 sm:px-6" >
-                      <div class="ui two column very relaxed grid">
-                        <div class="column">
-                        <center>   <p className="text-lg text-gray-400">{Img56}</p>  </center>  
-                        </div>
-                        <div class="column">
-                        <center>  <p style={{}} className="text-lg text-gray-400">{Img56T2}</p> </center>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-
-
-                    <div style={{ width: '400px' }} className="max-w-6xl mx-auto px-7 sm:px-9" >
+                  <div className="max-w-6xl mx-auto px-4 sm:px-6" style={{ marginTop: '45px' }}>
+                    <div>
                       <div class="ui three column very relaxed grid">
                         <div class="column">
-                        <center> <h2 style={{}} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore1}</h2> </center>
+                          <center> <img style={{ marginLeft: '35px' }} className="w-full h-full object-cover" src={Team1Logo} width="316" height="287" /> </center>
                         </div>
                         <div class="column">
-                          <h2 style={{ marginLeft: '10px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">-</h2>
+                          <center>  <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">VS</h2> </center>
                         </div>
 
                         <div class="column">
-                        <center>        <h2 style={{}} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore2}</h2> </center>
+                          <center> <img style={{ marginLeft: '-45px' }} className="w-full h-full object-cover" src={Team2Logo} width="316" height="287" /> </center>
 
                         </div>
 
@@ -342,8 +306,46 @@ function Tabs() {
 
                     </div>
 
+                    <div >
+
+                      <div className="max-w-6xl mx-auto px-4 sm:px-6" >
+
+                        <div class="ui two column very relaxed grid">
+                          <div class="column">
+                            <center> <p className="text-lg text-gray-400">{Img56}</p> </center>
+                          </div>
+                          <div class="column">
+                            <center><p style={{ marginLeft: '30px' }} className="text-lg text-gray-400">{Img56T2}</p> </center>
+
+                          </div>
+
+                        </div>
+
+                      </div>
 
 
+
+                      <div style={{ width: '400px' }} className="max-w-6xl mx-auto px-7 sm:px-9" >
+                        <div class="ui three column very relaxed grid">
+                          <div class="column">
+                            <center> <h2 style={{}} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore1}</h2> </center>
+                          </div>
+                          <div class="column">
+                            <center><h2 style={{ marginLeft: '-100px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">-</h2> </center>
+                          </div>
+
+                          <div class="column">
+                            <center> <h2 style={{ marginLeft: '-190px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore2}</h2> </center>
+
+                          </div>
+
+
+                        </div>
+
+                      </div>
+
+
+                    </div>
 
 
 
@@ -359,6 +361,7 @@ function Tabs() {
 
 
                 </div>
+
 
               </Transition>
 
@@ -378,54 +381,18 @@ function Tabs() {
 
                 <div data-aos="fade-up" ref={tabs}>
 
-                  <div className="max-w-6xl mx-auto px-4 sm:px-6" style={{ marginTop: '45px' }} >
-                    <div class="ui three column very relaxed grid">
-                      <div class="column">
-                      <center>  <img style={{ marginLeft: '75px' }} className="w-full h-full object-cover" src={Team1Logo2} width="316" height="287" /> </center>
-                      </div>
-                      <div class="column">
-                      <center> <h2  className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">VS1</h2> </center>
-                      </div>
-
-                      <div class="column">
-                      <center>  <img style={{ marginLeft: '-75px' }} className="w-full h-full object-cover" src={Team2Logo24} width="316" height="287" /> </center>
-
-                      </div>
-
-
-                    </div>
-
-                  </div>
-
-                  <div style={{ marginLeft: '40px' }} >
-
-                    <div className="max-w-6xl mx-auto px-4 sm:px-6" >
-                      <div class="ui two column very relaxed grid">
-                        <div class="column">
-                        <center> <p className="text-lg text-gray-400">{Img5622}</p> </center>
-                        </div>
-                        <div class="column">
-                        <center> <p style={{}} className="text-lg text-gray-400">{Img56T22}</p> </center>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-
-
-                    <div style={{ width: '400px' }} className="max-w-6xl mx-auto px-7 sm:px-9" >
+                  <div className="max-w-6xl mx-auto px-4 sm:px-6" style={{ marginTop: '45px' }}>
+                    <div>
                       <div class="ui three column very relaxed grid">
                         <div class="column">
-                        <center>  <h2 style={{}} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore12}</h2> </center>
+                          <center> <img style={{ marginLeft: '35px' }} className="w-full h-full object-cover" src={Team1Logo2} width="316" height="287" /> </center>
                         </div>
                         <div class="column">
-                        <center>   <h2 style={{ marginLeft: '10px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">-</h2> </center>
+                          <center>  <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">VS</h2> </center>
                         </div>
 
                         <div class="column">
-                        <center>  <h2 style={{}} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore22}</h2> </center>
+                          <center> <img style={{ marginLeft: '-45px' }} className="w-full h-full object-cover" src={Team2Logo24} width="316" height="287" /> </center>
 
                         </div>
 
@@ -434,8 +401,46 @@ function Tabs() {
 
                     </div>
 
+                    <div >
+
+                      <div className="max-w-6xl mx-auto px-4 sm:px-6" >
+
+                        <div class="ui two column very relaxed grid">
+                          <div class="column">
+                            <center> <p className="text-lg text-gray-400">{Img5622}</p> </center>
+                          </div>
+                          <div class="column">
+                            <center><p style={{ marginLeft: '30px' }} className="text-lg text-gray-400">{Img56T22}</p> </center>
+
+                          </div>
+
+                        </div>
+
+                      </div>
 
 
+
+                      <div style={{ width: '400px' }} className="max-w-6xl mx-auto px-7 sm:px-9" >
+                        <div class="ui three column very relaxed grid">
+                          <div class="column">
+                            <center> <h2 style={{}} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore12}</h2> </center>
+                          </div>
+                          <div class="column">
+                            <center><h2 style={{ marginLeft: '-100px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">-</h2> </center>
+                          </div>
+
+                          <div class="column">
+                            <center> <h2 style={{ marginLeft: '-190px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore22}</h2> </center>
+
+                          </div>
+
+
+                        </div>
+
+                      </div>
+
+
+                    </div>
 
 
 
@@ -451,6 +456,7 @@ function Tabs() {
 
 
                 </div>
+
 
               </Transition>
 
@@ -469,55 +475,18 @@ function Tabs() {
 
                 <div data-aos="fade-up" ref={tabs}>
 
-                  <div className="max-w-6xl mx-auto px-4 sm:px-6"  style={{ marginTop: '45px' }}>
-                    <div class="ui three column very relaxed grid">
-                      <div class="column">
-                      <center> <img style={{ marginLeft: '75px' }} className="w-full h-full object-cover" src={Team1Logo23} width="316" height="287" /> </center>
-                      </div>
-                      <div class="column">
-                      <center>  <h2  className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">VS1</h2> </center>
-                      </div>
-
-                      <div class="column">
-                      <center> <img style={{ marginLeft: '-75px' }}className="w-full h-full object-cover" src={Team2Logo234} width="316" height="287" /> </center>
-
-                      </div>
-
-
-                    </div>
-
-                  </div>
-
-                  <div >
-
-                    <div className="max-w-6xl mx-auto px-4 sm:px-6" >
-                     
-                      <div class="ui two column very relaxed grid">
-                        <div class="column">
-                        <center> <p className="text-lg text-gray-400">{Img56223}</p> </center>
-                        </div>
-                        <div class="column">
-                        <center><p style={{}} className="text-lg text-gray-400">{Img56T223}</p> </center>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-
-
-                    <div style={{ width: '400px' }} className="max-w-6xl mx-auto px-7 sm:px-9" >
+                  <div className="max-w-6xl mx-auto px-4 sm:px-6" style={{ marginTop: '45px' }}>
+                    <div>
                       <div class="ui three column very relaxed grid">
                         <div class="column">
-                        <center> <h2 style={{}} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore13}</h2> </center>
+                          <center> <img style={{ marginLeft: '35px' }} className="w-full h-full object-cover" src={Team1Logo23} width="316" height="287" /> </center>
                         </div>
                         <div class="column">
-                        <center><h2 style={{ marginLeft: '10px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">-</h2> </center>
+                          <center>  <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">VS</h2> </center>
                         </div>
 
                         <div class="column">
-                        <center> <h2 style={{}} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore23}</h2> </center>
+                          <center> <img style={{ marginLeft: '-45px' }} className="w-full h-full object-cover" src={Team2Logo234} width="316" height="287" /> </center>
 
                         </div>
 
@@ -526,8 +495,46 @@ function Tabs() {
 
                     </div>
 
+                    <div >
+
+                      <div className="max-w-6xl mx-auto px-4 sm:px-6" >
+
+                        <div class="ui two column very relaxed grid">
+                          <div class="column">
+                            <center> <p className="text-lg text-gray-400">{Img56223}</p> </center>
+                          </div>
+                          <div class="column">
+                            <center><p style={{ marginLeft: '30px' }} className="text-lg text-gray-400">{Img56T223}</p> </center>
+
+                          </div>
+
+                        </div>
+
+                      </div>
 
 
+
+                      <div style={{ width: '400px' }} className="max-w-6xl mx-auto px-7 sm:px-9" >
+                        <div class="ui three column very relaxed grid">
+                          <div class="column">
+                            <center> <h2 style={{}} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore13}</h2> </center>
+                          </div>
+                          <div class="column">
+                            <center><h2 style={{ marginLeft: '-100px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">-</h2> </center>
+                          </div>
+
+                          <div class="column">
+                            <center> <h2 style={{ marginLeft: '-190px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore23}</h2> </center>
+
+                          </div>
+
+
+                        </div>
+
+                      </div>
+
+
+                    </div>
 
 
 
@@ -562,53 +569,17 @@ function Tabs() {
                 <div data-aos="fade-up" ref={tabs}>
 
                   <div className="max-w-6xl mx-auto px-4 sm:px-6" style={{ marginTop: '45px' }}>
-                    <div class="ui three column very relaxed grid">
-                      <div class="column">
-                      <center><img style={{ marginLeft: '75px' }} className="w-full h-full object-cover" src={Team1Logo234} width="316" height="287" alt="Tabs 01" /> </center>
-                      </div>
-                      <div class="column">
-                      <center>  <h2  className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">VS1</h2> </center>
-                      </div>
-
-                      <div class="column">
-                      <center> <img style={{ marginLeft: '-75px' }} className="w-full h-full object-cover" src={Team2Logo2345} width="316" height="287" alt="Tabs 01" /> </center>
-
-                      </div>
-
-
-                    </div>
-
-                  </div>
-
-                  <div >
-
-                    <div className="max-w-6xl mx-auto px-4 sm:px-6" >
-                      <div class="ui two column very relaxed grid">
-                        <div class="column">
-                        <center> <p className="text-lg text-gray-400">{Img562234}</p> </center>
-                        </div>
-                        <div class="column">
-                        <center>   <p style={{}} className="text-lg text-gray-400">{Img56T2234}</p> </center>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-
-
-                    <div style={{ width: '400px' }} className="max-w-6xl mx-auto px-7 sm:px-9" >
+                    <div>
                       <div class="ui three column very relaxed grid">
                         <div class="column">
-                        <center> <h2 style={{}} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore14}</h2> </center>
+                          <center> <img style={{ marginLeft: '35px' }} className="w-full h-full object-cover" src={Team1Logo234} width="316" height="287" /> </center>
                         </div>
                         <div class="column">
-                        <center>  <h2 style={{ marginLeft: '10px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">-</h2> </center>
+                          <center>  <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">VS</h2> </center>
                         </div>
 
                         <div class="column">
-                        <center> <h2 style={{marginLeft:'40px'}} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore24}</h2> </center>
+                          <center> <img style={{ marginLeft: '-45px' }} className="w-full h-full object-cover" src={Team2Logo2345} width="316" height="287" /> </center>
 
                         </div>
 
@@ -617,8 +588,46 @@ function Tabs() {
 
                     </div>
 
+                    <div >
+
+                      <div className="max-w-6xl mx-auto px-4 sm:px-6" >
+
+                        <div class="ui two column very relaxed grid">
+                          <div class="column">
+                            <center> <p className="text-lg text-gray-400">{Img562234}</p> </center>
+                          </div>
+                          <div class="column">
+                            <center><p style={{ marginLeft: '30px' }} className="text-lg text-gray-400">{Img56T2234}</p> </center>
+
+                          </div>
+
+                        </div>
+
+                      </div>
 
 
+
+                      <div style={{ width: '400px' }} className="max-w-6xl mx-auto px-7 sm:px-9" >
+                        <div class="ui three column very relaxed grid">
+                          <div class="column">
+                            <center> <h2 style={{}} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore14}</h2> </center>
+                          </div>
+                          <div class="column">
+                            <center><h2 style={{ marginLeft: '-100px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">-</h2> </center>
+                          </div>
+
+                          <div class="column">
+                            <center> <h2 style={{ marginLeft: '-190px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">{TeamScore24}</h2> </center>
+
+                          </div>
+
+
+                        </div>
+
+                      </div>
+
+
+                    </div>
 
 
 
@@ -654,14 +663,14 @@ function Tabs() {
                   <div className="max-w-6xl mx-auto px-4 sm:px-6" >
                     <div class="ui three column very relaxed grid">
                       <div class="column">
-                       
+
                       </div>
                       <div class="column">
-                       
+
                       </div>
 
                       <div class="column">
-                      
+
 
                       </div>
 
@@ -683,10 +692,10 @@ function Tabs() {
                       </svg>
                       <div class="ui two column very relaxed grid">
                         <div class="column">
-                        
+
                         </div>
                         <div class="column">
-                       
+
 
                         </div>
 
@@ -696,7 +705,7 @@ function Tabs() {
 
 
 
-                    
+
 
 
 
