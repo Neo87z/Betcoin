@@ -28,7 +28,7 @@ function Tabs() {
 
 
 
-  useEffect(() => {
+ /* useEffect(() => {
 
     Axios.get('http://e392-35-204-64-57.ngrok.io/GetAllBets22').then((response) => {
       setBetList(response.data.FianlData)
@@ -54,7 +54,7 @@ function Tabs() {
     })
 
   }, []);
-
+*/
 
   const [tab, setTab] = useState(5);
 

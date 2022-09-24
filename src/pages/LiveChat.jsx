@@ -18,9 +18,9 @@ function FeaturesHome() {
 
   useEffect(() => {
     setFetchDataInterval(1000)
-    Axios.get('http://809b-35-204-64-57.ngrok.io/GetALlMessage2s22222222').then((response) => {
-      setMessafeList(response.data.FianlData)
-      console.log(response.data.FianlData)
+    Axios.get('https://asdasdasdasd2222.herokuapp.com/rooms/TestData').then((response) => {
+      setMessafeList(response.data)
+      console.log(response.data)
     })
     // Clean up for unmount to prevent memory leak
     return () => clearInterval(fetchDataIntervalId.current);

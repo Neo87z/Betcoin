@@ -65,7 +65,7 @@ function Tabs() {
 
   const [fetchDataTrigger, setFetchDataTrigger] = useState(0);
   const fetchDataIntervalId = useRef();
-
+/*
 
   useEffect(() => {
     setFetchDataInterval(1000)
@@ -135,7 +135,7 @@ function Tabs() {
   };
 
 
-
+*/
 
 
 
