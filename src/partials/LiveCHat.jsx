@@ -1,21 +1,24 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
+import Transition from '../utils/Transition';
 
-import FeatIllustration from '../images/chatBlack.jpeg';
-import FeatAvatar from '../images/features-avatar.jpg';
-import Tabs from '../partials/Tabs';
-import MainEvent from '../partials/Match';
+import TabsImage01 from '../images/tabs-image-01.jpg';
+import HeroImage01 from '../images/hero-image-01.jpg';
+import { Link } from 'react-router-dom';
+
+import NewsImage01 from '../images/news-01.jpg';
+import NewsImage02 from '../images/news-02.jpg';
+import NewsImage03 from '../images/news-03.jpg';
+import NewsAuthor01 from '../images/news-author-01.jpg';
+import NewsAuthor02 from '../images/news-author-02.jpg';
+import NewsAuthor03 from '../images/news-author-03.jpg';
 import Axios from "axios";
-
-
-
-
-function FeaturesHome() {
+function Tabs() {
   const [MessageList, setMessafeList] = useState([])
   const reversedData = [...MessageList].reverse();
   const [fetchDataTrigger, setFetchDataTrigger] = useState(0);
   const fetchDataIntervalId = useRef();
 
-  
+
   useEffect(() => {
     setFetchDataInterval(1000)
     Axios.get('https://asdasdasdasd2222.herokuapp.com/rooms/TestData').then((response) => {
@@ -41,45 +44,21 @@ function FeaturesHome() {
     }
   };
 
-
-
-
   return (
-    <section  >
+    <section>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="py-12 md:py-20  border-gray-800">
 
-      <div >
-        <div >
+          <div className="max-w-3xl mx-auto text-center pb-12" data-aos-id-tabs>
+            <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">Live CHat</h2>
 
+          </div>
 
-          {/* Items */}
-          <div className="grid gap-20" data-aos-id-features-home>
+          <div className="grid gap-12 md:grid-cols-1 md:gap-x-6 md:gap-y-8 items-start">
+            <article className="flex flex-col h-full" data-aos="fade-up" data-aos-delay="100">
+            
 
-            {/* Item */}
-            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-              {/* Image */}
-
-              <div style={{ width: '250%' }} className="max-w-xl md:max-w-none border-t border-gray-800 md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up" data-aos-anchor="[data-aos-id-features-home]">
-
-
-                <div className="relative">
-                  <div   className="max-w-3xl mx-auto text-center pb-12" data-aos-id-tabs>
-
-                    <h2 style={{ marginTop: '70px' }} className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">Live Chat</h2>
-
-                  </div>
-
-
-
-                  {/*   <svg style={{ marginTop: '50px', marginLeft: '10px' }} className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="540" height="520" viewBox="0 0 540 520" xmlns="http://www.w3.org/2000/svg">
-                    <g className="fill-current text-purple-600">
-                      <circle className="pulse" cx="270" cy="260" r="64" />
-                      <circle className="pulse pulse-1" cx="270" cy="260" r="64" />
-                      <circle className="pulse pulse-2" cx="270" cy="260" r="64" />
-                      <circle className="pulse pulse-3" cx="270" cy="260" r="64" />
-                    </g>
-                  </svg>*/}
-                </div>
-                <div style={{ width:'100%', height: '340px', overflow: 'auto', margin: '20px', textAlign: 'justify', padding: '20px' }}>
+                <div style={{ width: '100%', height: '500px', overflow: 'auto', margin: '20px', textAlign: 'justify', padding: '20px' }}>
                   <div className="max-w-3xl mx-auto -my-4 md:-my-6" data-aos-id-timeline>
 
                     {/* 1st item */}
@@ -110,20 +89,17 @@ function FeaturesHome() {
 
 
                 </div>
-              </div>
 
-
-
-
-
-            </div>
+             
+            </article>
 
           </div>
 
+
         </div>
       </div>
-    </section>
+    </section >
   );
 }
 
-export default FeaturesHome;
+export default Tabs;

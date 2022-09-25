@@ -10,14 +10,13 @@ import Target from '../partials/Target';
 import News from '../partials/News';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
-import Header2 from '../partials/Main2';
 
 function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
       {/*  Site header */}
-      <Header />
+      < Header />
 
       {/*  Page content */}
       <main className="grow">
@@ -28,17 +27,18 @@ function Home() {
         </div>
 
         {/*  Page sections */}
-       
         <HeroHome />
-        <Header2 />
-        
-     
+
+
+
+
+        < News />
 
 
       </main>
 
       {/*  Site footer */}
-     
+
 
     </div>
   );
